@@ -9,7 +9,7 @@ import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
-     <header>
+    <header>
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           <Logo />
@@ -27,11 +27,11 @@ const Header = () => {
             {/*mobile nav*/}
           <div className='xl:hidden'> 
             <MobileNav />   
+          </div>
         </div>
-      </div>
-     </div>
-    </div>  
-  </header>
+       </div>
+      </div>  
+     </header>
   );
 }; 
 
