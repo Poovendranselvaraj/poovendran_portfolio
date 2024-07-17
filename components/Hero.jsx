@@ -19,7 +19,12 @@ const Hero = () => {
         <div className="container mx-auto">
           <div className='flex justify-between gap-x-8'> 
             {/*text*/}
-            <div>text</div>  
+            <div>
+              <div>Web Devloper</div>  
+              <h1>Hello, I'm Poovendran.</h1>
+              <p><Brief description with insights into myself, 
+              my vocational journey,
+              and what I engage in professionally.</p>
             {/*image*/}
             <div>image</div>
           </div>
