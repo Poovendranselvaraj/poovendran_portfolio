@@ -2,13 +2,18 @@
 
 import { Button } from './ui/button';
 import { MoonIcon, SunIcon } from '@radix-ui/react-icons';
+import { useTheme } from 'next-themes';
 
-import React from 'react'
 
 const ThemeToggler = () => {
-  return (
-    <div>ThemeToggler</div>
-  )
-}
+  const { theme, setTheme } = useTheme();
+  return (<div>
+    <Button>
+      <SunIcon />
+      <MoonIcon />
+    </Button>
+  </div>
+  );
+};
 
-export default ThemeToggler
+export default ThemeToggler;
