@@ -20,11 +20,14 @@ const Hero = () => {
           <div className='flex justify-between gap-x-8'> 
             {/*text*/}
             <div>
-              <div>Web Devloper</div>  
-              <h1>Hello, I'm Poovendran.</h1>
-              <p><Brief description with insights into myself, 
-              my vocational journey,
-              and what I engage in professionally.</p>
+              <div>Web Developer</div>  
+              <h1 className='h1'>Hello, I'm Poovendran.</h1>
+              <p>
+                Brief description with insights into myself, my
+                vocational 
+                journey, and what I engage in professionally.
+              </p>
+            </div>  
             {/*image*/}
             <div>image</div>
           </div>
