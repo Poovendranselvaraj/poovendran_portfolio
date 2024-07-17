@@ -1,6 +1,12 @@
 //link (next.js)
 import Link from 'next/link';
 
+//next hooks
+import { usePathname } from 'next/navigation';
+
+//framer motion
+import { motion } from 'framer-motion';
+
 const links=[
     { path: "/", name: "home" },
     { path: "/projects", name:  "my projects" },
@@ -8,19 +14,31 @@ const links=[
 ];
 
 const Nav = ({ containerStyles, linkStyles, underlineStyles}) => {
-  return <nav className={'${containerStyles}'}>
+  const path = usePathname(); //get current location
+  return (
+     <nav className={`${containerStyles}`}>
     {links.map((link,index) => {
       return (
       <Link 
         href={link.path}
         key={index}
-        className={'capitalize ${linkStyles}'}
+        className={`capitalize ${linkStyles}`}
        >
-       {link.name}
+        {link.path === link.path && (
+            <motion.span 
+              initial={{y: '-100%'}} 
+              animate={{y: 0}}
+              transition={{type:'tween'}}
+              layoutId='underline'
+              className={`${underlineStyles}`}
+             />   
+        )}
+        {link.name}
      </Link>
       );    
     })}
    </nav>
+  );
 };
 
 export default Nav;
