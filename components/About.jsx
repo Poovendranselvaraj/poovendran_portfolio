@@ -51,7 +51,17 @@ const qualificationData=[
             year: '2017 - 2020',   
         }
       ]  
-    }
+    },
+    {
+        title: 'experience',
+        data:[
+          {
+              company: 'Infohub',
+              qualification: 'AR caller',
+              year: '2022 - 2024',   
+          }
+        ]  
+      }
 ]
 
 const skillData=[
@@ -93,8 +103,34 @@ const skillData=[
 
        
 const About = () => {
-  return (
-    <div>About</div>
+    const getData=(arr, title)=>{
+        return arr.find((item)=>item.title===title)
+    }
+    
+  return ( 
+       <section className="xl:h-[860px] pb-12 xl:py-24">
+         <div className="container mx-auto">
+            <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
+                About me
+            </h2>
+            <div>
+                {/*image*/}
+                <div className='hidden xl:flex flex-1 relative'>
+                    <DevImg containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px]
+                    bg-no-repeat relative' imgSrc='/about/developer5.png'/>
+                </div>
+                {/*tabs*/}
+                <div className='flex-1'>
+                    <Tabs>
+                       <TabsList>
+                        
+                       </TabsList>
+                        
+                    </Tabs>
+            </div>
+         </div>
+       </section>
+   
   )
 }
 
