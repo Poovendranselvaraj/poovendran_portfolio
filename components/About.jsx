@@ -124,15 +124,33 @@ const About = () => {
                     <Tabs defaultValue="personal">
                        <TabsList className='w-full grid xl:grid-cols-3 xl:max-w-[520px]
                        xl:border dark:border-none'>
-                         <TabsTrigger value='personal'>Personal Info</TabsTrigger>
-                         <TabsTrigger value='qualification'>Qualifications</TabsTrigger>
-                         <TabsTrigger value='skills'>Skills</TabsTrigger>
+                        <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>
+                           Personal Info
+                        </TabsTrigger>
+                        <TabsTrigger 
+                           className='w-[162px] xl:w-auto' 
+                           value='qualification'
+                        > 
+                           Qualifications
+                        </TabsTrigger>
+                        <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>
+                          Skills
+                        </TabsTrigger>
                        </TabsList>
                        {/*tabs content*/}
                        <div className="text-lg mt-12 xl:mt-8">
                         {/*personal*/}
-                        <TabsContent value="personal">personal info</TabsContent>
-                        <TabsContent value="qualification">qualification info</TabsContent>
+                        <TabsContent value="personal">
+                            <div>
+                                <h3>Unmatched Service Quality for Over 10 Years</h3>
+                                <p>
+                                    I specialize in crafting intuitive wensites with cutting-edge technology, delivering dynamic and engaging user experiences.
+                                </p> 
+                            </div>
+                            personal info</TabsContent>
+                        <TabsContent value="qualification">
+                            qualification info
+                        </TabsContent>
                         <TabsContent value="skills">skills info</TabsContent>
                        </div>
                     </Tabs>
