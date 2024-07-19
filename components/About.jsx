@@ -267,8 +267,8 @@ const About = () => {
                         {/*skills*/}
                         <TabsContent value="skills">
                             <div className="text-center xl:text-left">
-                                <h3 className="h3 mb-8">Tools I use Everyday</h3>
-                                {/*skill*/}
+                                <h3 className="h3 mb-8">What I use Everyday</h3>
+                                {/*skills*/}
                                 <div className="mb-16">
                                     <h4 className="text-xl font-semibold mb-2">Skills</h4>
                                     <div className="border-b border-border mb-4"></div>
@@ -295,6 +295,26 @@ const About = () => {
                                     <h4 className="text-xl font-semibold mb-2 xl:text-left">
                                         Tools
                                     </h4>
+                                    <div className="border-b border-border mb-4"></div>
+                                    {/*tools list*/}
+                                    <div className="flex gap-x-8 justify-center xl:justify-start">
+                                       {getData(skillData,'tools').data.map((item, index)=>{
+                                            const { imgPath } = item;
+                                            return (
+                                              <div key={index}>
+                                                <Image
+                                                  src={ imgPath }
+                                                  width={48}
+                                                  height={48}
+                                                  alt=""
+                                                  priority
+                                                />
+                                                
+                                              </div>
+                                            )
+                                        }
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </TabsContent>
