@@ -9,7 +9,7 @@ import {
     HomeIcon,
     PhoneCall,
     GraduationCap, 
-    Calender, 
+    Calendar, 
     Briefcase,
 } from 'lucide-react' 
 
@@ -35,7 +35,7 @@ const infoData=[
         text:'B.sc.Computer Science',
     },
     {
-        icon: <Calender size={20}/>,
+        icon: <Calendar size={20}/>,
         text:'Born on 20 March, 2000',
     },
     
@@ -113,7 +113,7 @@ const About = () => {
             <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
                 About me
             </h2>
-            <div>
+            <div className="flex flex-col xl:flex-row">
                 {/*image*/}
                 <div className='hidden xl:flex flex-1 relative'>
                     <DevImg containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px]
@@ -141,13 +141,26 @@ const About = () => {
                        <div className="text-lg mt-12 xl:mt-8">
                         {/*personal*/}
                         <TabsContent value="personal">
+                          <div className="'text-center xl:text-left">
+                             <h3 className="h3 mb-4">
+                                    Unmatched Service Quality for Over 10 Years
+                             </h3>
+                             <p className="'subtitle max-w-xl mx-auto xl:mx-0">
+                                    I specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences.
+                             </p> 
+                            {/* icons */}
                             <div>
-                                <h3>Unmatched Service Quality for Over 10 Years</h3>
-                                <p>
-                                    I specialize in crafting intuitive wensites with cutting-edge technology, delivering dynamic and engaging user experiences.
-                                </p> 
+                                {infoData.map((item, index)=> {
+                                  return (
+                                    <div key={index}>
+                                       <div>{item.icon}</div>
+                                       <div>{item.text}</div>
+                                    </div>
+                                    )
+                                })}
                             </div>
-                            personal info</TabsContent>
+                          </div>
+                        </TabsContent>
                         <TabsContent value="qualification">
                             qualification info
                         </TabsContent>
