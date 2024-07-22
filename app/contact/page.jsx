@@ -1,4 +1,7 @@
 import { MailIcon, HomeIcon, PhoneCall } from "lucide-react"
+// components
+import Form from "@/components/Form"
+
 
 const Contact= () => {
   return (
@@ -22,7 +25,28 @@ const Contact= () => {
           dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat"></div>
         </div>
         {/*info text & form*/}
-        <div>info text & form</div>
+        <div className="grid xl:grid-cols-2 mb-24 xl:mb-32">
+          {/*info text*/}
+          <div className="flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base
+          xl:text-lg">
+            {/*mail*/}
+            <div className="flex items-center gap-x-8">
+              <MailIcon size={18} className="text-primary"/>
+              <div>Youremail@gmail.com</div>
+            </div>
+            {/*address*/}
+            <div className="flex items-center gap-x-8">
+              <HomeIcon size={18} className="text-primary"/>
+              <div>1401 Pine Avenue, Meadowville MC 842</div>
+            </div>
+            {/*phone*/}
+            <div className="flex items-center gap-x-8">
+              <PhoneCall size={18} className="text-primary"/>
+              <div>+99 926 856 2488</div>
+            </div>
+          </div>
+          <Form />
+        </div>
       </div>
     </section>
 
