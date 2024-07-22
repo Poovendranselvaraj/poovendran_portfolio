@@ -37,15 +37,24 @@ const Services = () => {
                 My Services
             </h2>
             {/* grid items */}
-            <div>
+            <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
                 {ServicesData.map((item, index) => {
                   return (
-                    <Card key={index}>
-                      <CardHeader>
+                    <Card 
+                      className='w-full max-w-[424px] h-[300px] flex flex-col     pt-16 pb-10 justify-center items-center relative' 
+                      key={index}
+                    >
+                      <CardHeader className='text-primary adsolute -top-[60px]'>
                         <div className="w-[140px] h-[80px] bg-pink-100 dark:bg-background flex justify-center items-center">
                           {item.icon}
                         </div>
                       </CardHeader>
+                      <CardContent className='text-center'>
+                        <CardTitle className='mb-4'>{item.title}</CardTitle>
+                        <CardDescription className='text-lg'>
+                          {item.description}
+                        </CardDescription>
+                      </CardContent>
                     </Card>
                   )
                 })}
