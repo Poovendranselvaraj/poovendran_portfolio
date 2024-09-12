@@ -72,10 +72,10 @@ const skillData=[
         name: 'HTML & CSS',
      },
      {
-        name: 'Javascript',
+        name: 'JAVASCRIPT',
      },
      {
-        name: 'Python',
+        name: 'PYTHON',
      },  
      {
         name: 'SQL',
@@ -84,10 +84,10 @@ const skillData=[
         name: 'REACT',
      },
      {
-        name: 'Flask',
+        name: 'FLASK',
      },
      {
-        name: 'Mern',
+        name: 'MERN',
      },
     ],     
  },
@@ -96,17 +96,17 @@ const skillData=[
     title: 'tools',
     data:[
         {
-            imgPath:'/about/vscode.svg',
+            imgPath:'/about/vscode.png',
         },
         {
-            imgPath: '/about/figma.svg',
+            imgPath: '/about/github.svg',
         },
         {
-            imgPath: '/about/notion.svg',
+            imgPath: '/about/postman.png',
+        }, 
+        {
+            imgPath: '/about/postgres.png',
         },  
-        {
-            imgPath: '/about/wordpress.svg',
-        },
         ]
     }
 ]   
