@@ -15,6 +15,8 @@ const Form = () => {
     message: ''
   });
 
+  const [loading, setLoading] = useState(false);
+
   // Handle form inputs change
   const handleChange = (e) => {
     setForm({
@@ -26,6 +28,8 @@ const Form = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    setLoading(true);
     
     emailjs.send(
       'service_840a121',
@@ -38,10 +42,13 @@ const Form = () => {
         message: form.message
       },
       'JrnZAJaMi-WcQHS-k'
-    ).then((result) => {
-      console.log(result.text);
+    ).then(() => {
+      setLoading(false);
+      alert('Thank you. I will get back to you as soon as possible.');
+      setForm({ name: '', email: '', message: '' });
     }, (error) => {
-      console.log(error.text);
+      setLoading(false);     
+      alert('Something went wrong. Please try again.');
     });
   };
 

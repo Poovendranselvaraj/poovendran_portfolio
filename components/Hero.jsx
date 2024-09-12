@@ -62,16 +62,17 @@ const Hero = () => {
                 endcountText=''
                 badgeText='Projects Developed'
               /> */}
+
             {/*badge 3*/}
-            {/* <Badge 
-                containerStyles='absolute top-[55%] -right-8'
+            <Badge 
+                containerStyles='absolute top-[55%] -right-'
                 icon={<RiTeamFill />} 
-                endCountNum={9} 
-                endcountText='k'
-                badgeText='Happy Clients'
-              /> */}
+                endCountNum={1} 
+                // endcountText='k'
+                badgeText='Course Completion Certificate'
+              />
             <Badge
-              containerStyles='absolute top-[75%] -right-8'
+              containerStyles='absolute top-[50%] -right-8'
               icon={<RiTodoFill />}
               endCountNum={6}
               endcountText=''
