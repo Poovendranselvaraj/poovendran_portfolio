@@ -66,7 +66,7 @@ const uniqueCategories = [
   'all projects',
   ...new Set(projectData.map((item) => item.category)),
 ];
-
+ 
 const Projects = () => {
   const [categories, setCategories] = useState(uniqueCategories);
   const [category, setCategory] = useState('all projects');
