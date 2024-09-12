@@ -108,7 +108,7 @@ const skillData=[
             imgPath: '/about/postgres.png',
         },  
         ]
-    }
+    } 
 ]   
 
        
