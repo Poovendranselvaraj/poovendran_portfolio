@@ -72,16 +72,26 @@ const skillData=[
         name: 'HTML & CSS',
      },
      {
-        name: 'Front-end Development',
+        name: 'Javascript',
      },
      {
         name: 'Python',
      },  
      {
-        name: 'Back-end Development',
+        name: 'SQL',
+     },
+     {
+        name: 'REACT',
+     },
+     {
+        name: 'Flask',
+     },
+     {
+        name: 'Mern',
      },
     ],     
  },
+ 
     {
     title: 'tools',
     data:[

@@ -1,34 +1,94 @@
 'use client'
 
+import { useState } from 'react';
 import { Button } from './ui/button'
 import { Input } from './ui/input'
 import { Textarea } from './ui/textarea'
 import { User, MailIcon, ArrowRightIcon, MessageSquare } from 'lucide-react'
+import emailjs from '@emailjs/browser'
 
 const Form = () => {
-  return (
-    <form className='flex flex-col gap-y-4'>
-        {/* inputs */}
-        <div className='relative flex items-center'>
-            <Input type='name' id='name' placeholder='Name' />
-            <User className='absolute right-6' size={20} />
-        </div>
-        {/* inputs */} 
-        <div className='relative flex items-center'>
-            <Input type='email' id='email' placeholder='Email' />
-            <MailIcon className='absolute right-6' size={20} />
-        </div>
-        {/* textarea */}
-        <div className='relative flex items-center'>
-            <Textarea placeholder='Type Your Message Here' />
-            <MessageSquare className='absolute top-4 right-6' size={20} />
-        </div>
-        <Button className='flex items-center max-w-[166px]'>
-          Let's Talk
-          <ArrowRightIcon size={20} />
-        </Button>
-    </form>
-  )
-}
+  // State to capture form data
+  const [form, setForm] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
 
-export default Form
+  // Handle form inputs change
+  const handleChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.id]: e.target.value
+    });
+  };
+
+  // Handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    emailjs.send(
+      'service_840a121',
+      'template_2h2qdaa',
+      {
+        from_name: form.name,
+        to_name: "poovendran",
+        email: form.email,
+        to_email: "poovendranselvaraj333@gmail.com",
+        message: form.message
+      },
+      'JrnZAJaMi-WcQHS-k'
+    ).then((result) => {
+      console.log(result.text);
+    }, (error) => {
+      console.log(error.text);
+    });
+  };
+
+  return (
+    <form className='flex flex-col gap-y-4' onSubmit={handleSubmit}>
+      {/* Name input */}
+      <div className='relative flex items-center'>
+        <Input 
+          type='text' 
+          id='name' 
+          placeholder='Name' 
+          value={form.name}
+          onChange={handleChange} 
+        />
+        <User className='absolute right-6' size={20} />
+      </div>
+
+      {/* Email input */}
+      <div className='relative flex items-center'>
+        <Input 
+          type='email' 
+          id='email' 
+          placeholder='Email' 
+          value={form.email}
+          onChange={handleChange} 
+        />
+        <MailIcon className='absolute right-6' size={20} />
+      </div>
+
+      {/* Message textarea */}
+      <div className='relative flex items-center'>
+        <Textarea 
+          placeholder='Type Your Message Here' 
+          id='message' 
+          value={form.message}
+          onChange={handleChange} 
+        />
+        <MessageSquare className='absolute top-4 right-6' size={20} />
+      </div>
+
+      {/* Submit button */}
+      <Button className='flex items-center max-w-[166px]' type="submit">
+        send
+        <ArrowRightIcon size={20} />
+      </Button>
+    </form>
+  );
+};
+
+export default Form;
