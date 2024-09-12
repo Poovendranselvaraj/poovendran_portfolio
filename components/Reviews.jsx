@@ -21,47 +21,33 @@ import {Pagination} from 'swiper/modules'
 
 const reviewData=[
     {
-        avatar: '/reviews/avatar-1.png',
-        name:'Richard Thompson',
-        job: 'Chef',
-        review:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quos quo voluptas tempor delectus dicta',
+        // avatar: '/reviews/avatar-1.png',
+        name:'HariPrasath',
+        job: 'Java Developer',
+        review:'Hari consistently exceeds expectations. His technical expertise, combined with his dedication to continuous learning, allows him to produce outstanding results. He is a reliable and proactive individual, always looking for ways to improve and optimize workflows.',
+
     },
     {
-        avatar: '/reviews/avatar-2.png',
-        name:'Evelyn Anderson',
-        job: 'Interior Designer',
+        // avatar: '/reviews/avatar-2.png',
+        name:'Ranjith kumar',
+        job: 'Full stack developer',
         review:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quos quo voluptas tempor delectus dicta',
+          'I’ve had the pleasure of collaborating with Hari on several projects, and his level of professionalism is truly impressive. He has a natural ability to communicate complex ideas clearly, making him an excellent team player and leader. His work ethic and attention to detail are second to none.',
     },
     {
-        avatar: '/reviews/avatar-3.png',
-        name:'John Dae',
+        // avatar: '/reviews/avatar-3.png',
+        name:'Gokul',
         job: 'Game Developer',
-        review:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quos quo voluptas tempor delectus dicta',
+        review:'Technical skills are top-notch, and their approach to project management is both effective and inspiring. They have an innate ability to make complex projects manageable and successful.',
     },
     {
-        avatar: '/reviews/avatar-4.png',
-        name:'Emily Smith',
-        job: 'Therapist',
+        // avatar: '/reviews/avatar-4.png',
+        name:'Manoj Kumar',
+        job: 'Software Developer',
         review:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quos quo voluptas tempor delectus dicta',
+          'Working with Hari has been an incredible experience. His ability to combine creativity with technical skills has resulted in top-tier solutions for our projects. His proactive nature and positive attitude make him a joy to work with.',
     },
-    {
-        avatar: '/reviews/avatar-5.png',
-        name:'Oliver Tayloer',
-        job: 'Engineer',
-        review:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quos quo voluptas tempor delectus dicta',
-    },
-    {
-        avatar: '/reviews/avatar-6.png',
-        name:'Mason Wilson',
-        job: 'Video Editor',
-        review:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quos quo voluptas tempor delectus dicta',
-    },
+   
 ]
 const Reviews = () => {
   return (
@@ -88,14 +74,14 @@ const Reviews = () => {
                            <Card className='bg-tertiary dark:bg-secondary/40 p-8  min-h-[300px]'>
                             <CardHeader className='p-0 mb=10'>
                                 <div className="flex items-center gap-x-4">
-                                    {/*image*/}
-                                    <Image 
+                                    {/* image */}
+                                    {/* <Image 
                                        src={person.avatar}
                                        width={70}
                                        height={70}
                                        alt=''
                                        priority
-                                    />
+                                    /> */}
                                     {/*name*/}
                                     <div className="flex flex-col">
                                         <CardTitle>{person.name}</CardTitle>

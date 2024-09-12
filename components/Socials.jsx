@@ -11,26 +11,26 @@ import {
 import Link from "next/link";
 
 const icons = [
+  // {
+  //   path: '/',
+  //   name:<RiYoutubeFill/>
+  // },
   {
-    path: '/',
-    name:<RiYoutubeFill/>
-  },
-  {
-    path: '/',
+    path: 'https://www.linkedin.com/in/poovendran-selvaraj-b50106206',
     name:<RiLinkedinFill/>
   },
   {
-    path: '/',
+    path: 'https://github.com/poovendranselvaraj',
     name:<RiGithubFill/>
   },
-  {
-    path: '/',
-    name:<RiFacebookFill/>
-  },
-  {
-    path: '/',
-    name:<RiInstagramFill/>
-  },
+  // {
+  //   path: '/',
+  //   name:<RiFacebookFill/>
+  // },
+  // {
+  //   path: '/',
+  //   name:<RiInstagramFill/>
+  // },
 ]
 const Socials = ({containerStyles, iconsStyles}) => {
   return (
