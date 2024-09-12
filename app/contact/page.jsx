@@ -15,9 +15,17 @@ const Contact= () => {
              <span className="w-[30px] h-[2px] bg-primary"></span>
              Say Hello👋
             </div> 
-            <h1>Let's Work Together.</h1>
-            <p className="subtitle max-w-[480px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nostrum.
+            <h1>Let’s Build Something Great Together.</h1>
+            <p className="subtitle max-w-[480px]">          
+                I'm always open to exciting opportunities and projects. If you have an idea or want to collaborate, don’t hesitate to reach out.
+            </p>
+            <h1> Let's Connect!</h1>
+            <p className="subtitle max-w-[480px]">          
+              I’m always excited to meet new people and hear about innovative ideas. Drop me a line if you think we’d be a good fit.           
+             </p>
+             <h1> Let’s Create Awesome Experiences.</h1>
+            <p className="subtitle max-w-[480px]">          
+              I'm passionate about coding/designing solutions that make a difference. Let's work together to build something impactful.
             </p>
           </div>
           {/*illustration*/}
@@ -32,17 +40,17 @@ const Contact= () => {
             {/*mail*/}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary"/>
-              <div>Youremail@gmail.com</div>
+              <div>poovendranselvaraj333@gmail.com</div>
             </div>
             {/*address*/}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary"/>
-              <div>1401 Pine Avenue, Meadowville MC 842</div>
+              <div>Sathyamangalam.ERODE-638401.</div>
             </div>
             {/*phone*/}
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary"/>
-              <div>+99 926 856 2488</div>
+              <div>+91 908-076-5106</div>
             </div>
           </div>
           <Form />
