@@ -13,19 +13,19 @@ const ServicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8}/>,
     title: 'Web Design',
     description:
-      'I specialize in creating modern, intuitive, and responsive web designs that engage users and drive results. By focusing on user experience (UX) and clean aesthetics, I ensure each design is not only visually appealing but also highly functional across all platforms. From concept to execution, I blend creativity with strategy to deliver websites that reflect a brand’s identity while optimizing performance and accessibility.',
+      'I create modern, responsive websites that combine intuitive user experience with clean aesthetics. My designs are both visually appealing and functional, ensuring they perform well on all devices and reflect a brand’s identity.',
    },
    {
     icon: <Blocks size={72} strokeWidth={0.8}/>,
     title: 'Web Development',
     description:
-      'I bring ideas to life through clean, efficient, and scalable code. Specializing in both front-end and back-end development, I create websites and web applications that are fast, secure, and highly functional. From translating design concepts into interactive user interfaces to developing robust back-end systems, my goal is to build seamless digital experiences that meet the evolving needs of users and businesses alike.',
+      'I turn ideas into functional, scalable websites and applications with clean, efficient code. Specializing in both front-end and back-end, I ensure fast, secure, and interactive digital experiences that meet the needs of users and businesses.',
    },
    {
     icon: <Gem size={72} strokeWidth={0.8}/>,
     title: 'App Development',
     description:
-      'I create powerful, intuitive, and user-friendly mobile applications designed to meet diverse business needs. Whether its Android, iOS, or cross-platform development, I focus on delivering seamless performance and exceptional user experiences. From ideation to deployment, I ensure that each app is crafted with precision, optimized for performance, and built to scale, keeping users engaged and businesses ahead of the curve.',
+      'I develop intuitive, high-performance mobile apps for Android, iOS, and cross-platform. From concept to launch, I ensure seamless functionality and exceptional user experiences, keeping your business ahead with scalable and engaging solutions.',
    }, 
 ] 
 

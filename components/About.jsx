@@ -55,11 +55,18 @@ const qualificationData=[
     {
         title: 'experience',
         data:[
+            {
+                company: 'Magizh Technologies',
+                role: 'Full Stack Intern',
+                year: 'June 2024 - Present',   
+            },
           {
               company: 'Infohub',
               role: 'AR caller',
               year: '2022 - 2024',   
           }
+          
+
         ]  
       }
 ]
@@ -283,22 +290,20 @@ const About = () => {
                                     <h4 className="text-xl font-semibold mb-2">Skills</h4>
                                     <div className="border-b border-border mb-4"></div>
                                     {/*skill list*/}
-                                    <div>
-                                        {getData(skillData,'skills').data.map(
-                                        (item, index)=>{
-                                            const { name } = item;
-                                            return (
-                                              <div 
-                                                className="w-2/4 text-center xl:text-left mx-auto
-                                                xl:mx-0" 
-                                                key={index}
-                                              >
-                                                <div className="font-medium">{name}</div>
-                                              </div>
-                                            )
-                                        }
-                                        )}
-                                    </div>
+                                    <div className="flex flex-wrap justify-center xl:justify-start">
+  {getData(skillData, 'skills').data.map((item, index) => {
+    const { name } = item;
+    return (
+      <div 
+        className="w-full md:w-1/2 p-2 text-center xl:text-left" 
+        key={index}
+      >
+        <div className="font-medium">{name}</div>
+      </div>
+    )
+  })}
+</div>
+
                                 </div>
                                 {/*tools*/}
                                 <div>

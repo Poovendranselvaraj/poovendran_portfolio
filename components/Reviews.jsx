@@ -24,28 +24,32 @@ const reviewData=[
         // avatar: '/reviews/avatar-1.png',
         name:'HariPrasath',
         job: 'Java Developer',
-        review:'Hari consistently exceeds expectations. His technical expertise, combined with his dedication to continuous learning, allows him to produce outstanding results. He is a reliable and proactive individual, always looking for ways to improve and optimize workflows.',
+        
+        review:'Absolutely stunning work! Your designs are both visually captivating and incredibly user-friendly. Every project in your portfolio shows a keen eye for detail and creativity.',
 
     },
     {
         // avatar: '/reviews/avatar-2.png',
         name:'Ranjith kumar',
         job: 'Full stack developer',
+
         review:
-          'I’ve had the pleasure of collaborating with Hari on several projects, and his level of professionalism is truly impressive. He has a natural ability to communicate complex ideas clearly, making him an excellent team player and leader. His work ethic and attention to detail are second to none.',
+          'Your portfolio is a testament to your skill and dedication. The functionality and aesthetics of your web and app designs are top-notch. Truly impressive!',
     },
     {
         // avatar: '/reviews/avatar-3.png',
         name:'Gokul',
         job: 'Game Developer',
-        review:'Technical skills are top-notch, and their approach to project management is both effective and inspiring. They have an innate ability to make complex projects manageable and successful.',
+
+        review:'Your work speaks for itself—innovative, stylish, and incredibly effective. Each piece in your portfolio demonstrates a high level of expertise and thoughtfulness.',
     },
     {
         // avatar: '/reviews/avatar-4.png',
         name:'Manoj Kumar',
         job: 'Software Developer',
+
         review:
-          'Working with Hari has been an incredible experience. His ability to combine creativity with technical skills has resulted in top-tier solutions for our projects. His proactive nature and positive attitude make him a joy to work with.',
+          'I’m blown away by your portfolio! The clean, modern designs and seamless user experiences are exactly what we were looking for. Great job!',
     },
    
 ]
