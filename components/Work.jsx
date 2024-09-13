@@ -19,15 +19,6 @@ import ProjectCard from '@/components/ProjectCard'
 
 const projectData = [
   {
-    image: '/work/React.png',
-    category: 'fullstack',
-    name: 'React Token Based Authentication app',
-    description:
-      'This project is a token-based authentication app built with React, using JWT for authentication and refresh tokens for enhanced security. It incorporates Redux for state management, React Hook Form for form handling, and Yup for validation. The UI is styled with CSS. The server side is powered by Node.js and Express.js, connected to a database for data storage. The project was managed with npm, streamlining the development process. Languages/technologies used: JavaScript, React, Node.js, Express.js, CSS, and npm.',
-    link: '',
-    github: 'https://github.com/Poovendranselvaraj/react-js-validation',
-  },
-  {
     image: '/work/Hospital.png',
     category: 'react js',
     name: 'Hospital Management System',
@@ -54,6 +45,15 @@ const projectData = [
       'The MERN Todo List is a full-stack app where users can add, delete, and track tasks. It supports user authentication with JWT and allows task management via a simple UI.Languages/technologies used: MongoDB, Express.js, React.js, Node.js, HTML, CSS, and JavaScript.',
     link: 'https://poovetodo.netlify.app/',
     github: 'https://github.com/Poovendranselvaraj/todo_list',
+  },
+  {
+    image: '/work/React.png',
+    category: 'fullstack',
+    name: 'React Token Based Authentication app',
+    description:
+      'This project is a token-based authentication app built with React, using JWT for authentication and refresh tokens for enhanced security. It incorporates Redux for state management, React Hook Form for form handling, and Yup for validation. The UI is styled with CSS. The server side is powered by Node.js and Express.js, connected to a database for data storage. The project was managed with npm, streamlining the development process. Languages/technologies used: JavaScript, React, Node.js, Express.js, CSS, and npm.',
+    link: '',
+    github: 'https://github.com/Poovendranselvaraj/react-js-validation',
   },
   {
     image: '/work/Fastapi.png',
