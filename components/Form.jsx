@@ -30,6 +30,13 @@ const Form = () => {
     e.preventDefault();
 
     setLoading(true);
+    // validate
+
+    if (!form.name || !form.email || !form.message) {
+      setLoading(false);
+      alert('Please fill in all fields');
+      return;
+    }
     
     emailjs.send(
       'service_840a121',
@@ -91,8 +98,8 @@ const Form = () => {
 
       {/* Submit button */}
       <Button className='flex items-center max-w-[166px]' type="submit">
-        send
-        <ArrowRightIcon size={20} />
+        {loading ? 'Sending...' : 'Send'}
+        {/* <ArrowRightIcon size={20} /> */}
       </Button>
     </form>
   );
