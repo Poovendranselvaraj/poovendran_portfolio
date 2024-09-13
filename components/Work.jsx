@@ -79,7 +79,7 @@ const Work = () => {
     <section className='relative mb-12 xl:mb-48'>
         <div className='container mx-auto'>
             {/*text*/}
-            <div className='max-w-[400px] mx-auto xl:mx-0 text-center
+            <div className='max-w-[300px] mx-auto xl:mx-0 text-center
             xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start'>
                 <h2 className='section-title mb-4'>Latest Creations</h2>
                 <p className='subtitle mb-8'>Check out our most recent developments in web design, showcasing innovative features and unique client solutions.</p>
@@ -87,16 +87,16 @@ const Work = () => {
                 </Link>
             </div>
             {/*slider*/}
-            <div className='xl:max-w-[1000px] xl:absolute right-0 top-0'>
+            <div className='xl:max-w-[1100px] xl:absolute right-0 top-0'>
                 <Swiper 
-                   className='h-[480px]' 
-                   slidesPerView={1}
+                   className='h-[500px]' 
+                   slidesPerView={2}
                    breakpoints={{
                      640:{
                        slidesPerView:2,
                     },
                  }} 
-                 spaceBetween={30} 
+                 spaceBetween={20} 
                  modules={[Pagination]} 
                  pagination={{clickable:true}}
                 >
