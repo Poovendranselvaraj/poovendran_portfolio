@@ -52,7 +52,7 @@ const projectData = [
     name: 'React Token Based Authentication app',
     description:
       'This project is a token-based authentication app built with React, using JWT for authentication and refresh tokens for enhanced security. It incorporates Redux for state management, React Hook Form for form handling, and Yup for validation. The UI is styled with CSS. The server side is powered by Node.js and Express.js, connected to a database for data storage. The project was managed with npm, streamlining the development process. Languages/technologies used: JavaScript, React, Node.js, Express.js, CSS, and npm.',
-    link: '',
+    link: 'https://github.com/Poovendranselvaraj/react-js-validation',
     github: 'https://github.com/Poovendranselvaraj/react-js-validation',
   },
   {
@@ -61,7 +61,7 @@ const projectData = [
     name: 'FastApi Python',
     description:
       'This project involves building robust backend services using FastAPI, with CRUD operations handled by PostgreSQL and managed via PgAdmin. APIs are tested and validated using Postman, and applications are containerized with Docker. Pydantic models are used for data validation and serialization.Languages/technologies used: Python, FastAPI, PostgreSQL, Docker, PgAdmin, and Postman.',
-    link: '',
+    link: 'https://github.com/Poovendranselvaraj/fastapi',
     github: 'https://github.com/Poovendranselvaraj/fastapi',
   },
   // {
