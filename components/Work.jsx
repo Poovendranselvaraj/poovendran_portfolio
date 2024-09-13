@@ -64,15 +64,15 @@ const projectData = [
     link: '',
     github: 'https://github.com/Poovendranselvaraj/fastapi',
   },
-  {
-    image: '/work/Flask-todo.png',
-    category: 'Mini project',
-    name: 'Flask Todo-list',
-    description:
-      'Built a full-featured To-Do List application using Flask, focusing on clean architecture, database management, and frontend integration. creating RESTful APIs, handling user authentication, and developing CRUD functionality.Developed a Flask-based To-Do List web application with user authentication Implemented CRUD operations for tasks, Integrated HTML, CSS, and JavaScript for an intuitive user interface.Ensured secure data handling with Flask-WTF and Flask-Login for form validation and user sessionsTested and debugged using Postman for API endpoints..',
-    link: 'https://flask-todo-8uvr.onrender.com/',
-    github: 'https://github.com/Poovendranselvaraj/Flask-todo',
-  },
+  // {
+  //   image: '/work/Flask-todo.png',
+  //   category: 'Mini project',
+  //   name: 'Flask Todo-list',
+  //   description:
+  //     'Built a full-featured To-Do List application using Flask, focusing on clean architecture, database management, and frontend integration. creating RESTful APIs, handling user authentication, and developing CRUD functionality.Developed a Flask-based To-Do List web application with user authentication Implemented CRUD operations for tasks, Integrated HTML, CSS, and JavaScript for an intuitive user interface.Ensured secure data handling with Flask-WTF and Flask-Login for form validation and user sessionsTested and debugged using Postman for API endpoints..',
+  //   link: 'https://flask-todo-8uvr.onrender.com/',
+  //   github: 'https://github.com/Poovendranselvaraj/Flask-todo',
+  // },
 ]
 const Work = () => {
   return (
