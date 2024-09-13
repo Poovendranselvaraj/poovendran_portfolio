@@ -70,7 +70,7 @@ const Reviews = () => {
                pagination={{
                 clickable:true,
               }}
-              className="h-[350px]"
+              className="h-[280px]"
             >
                 {reviewData.map((person, index) => {
                     return (
