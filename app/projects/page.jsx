@@ -5,7 +5,7 @@ import ProjectCard from '@/components/ProjectCard'
 
 const projectData = [
   {
-    image: '/work/3.png',
+    image: '/work/React.png',
     category: 'react js',
     name: 'React Token Based Authentication app',
     description:
@@ -51,7 +51,7 @@ const projectData = [
     github: 'https://github.com/Poovendranselvaraj/fastapi',
   },
   {
-    image: '/work/Flask-todo.png',
+    image: '/work/Flask-Todo.png',
     category: 'Mini project',
     name: 'Flask Todo-list',
     description:
