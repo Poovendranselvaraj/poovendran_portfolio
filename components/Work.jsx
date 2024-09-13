@@ -56,8 +56,8 @@ const projectData = [
     github: 'https://github.com/Poovendranselvaraj/todo_list',
   },
   {
-    image: '/work/3.png',
-    category: 'fullstack',
+    image: '/work/Fastapi.png',
+    category: 'Backend',
     name: 'FastApi Python',
     description:
       'The Proficient in designing robust backend services,integrating relational databases,and automating testing using Postman. Strong skills in containerizing applications with Docker and managing databases with PgAdmin.Developed APIs using FastAPI, ensuring performance and security.Implemented CRUD operations with PostgreSQL,managed via PgAdmin.Utilized Postman for API testing and validation.Containerized applications with Docker,Integrated data validation and serialization with Pydantic models.',

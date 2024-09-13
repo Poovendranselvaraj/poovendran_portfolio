@@ -9,16 +9,16 @@ const projectData = [
     category: 'react js',
     name: 'React Token Based Authentication app',
     description:
-      'Jwt token based authentication, with refresh token based authentication, and redux for state management Used custom hooks for session and local storage Developed using React for a dynamic UI, React Hook Form for efficient form handling, Yup for validation, and  Styled using CSS.npm: Managed project dependencies and scripts using npm, streamlining the development process.Built with Node.js and Express.js for server - side logic, integrated with a database for data storage.',
+      'This project is a token-based authentication app built with React, using JWT for authentication and refresh tokens for enhanced security. It incorporates Redux for state management, React Hook Form for form handling, and Yup for validation. The UI is styled with CSS. The server side is powered by Node.js and Express.js, connected to a database for data storage. The project was managed with npm, streamlining the development process. Languages/technologies used: JavaScript, React, Node.js, Express.js, CSS, and npm.',
     link: '',
     github: 'https://github.com/Poovendranselvaraj/react-js-validation',
   },
   {
     image: '/work/Hospital.png',
     category: 'react js',
-    name: 'Hospital Management',
+    name: 'Hospital Management System',
     description:
-      'Build a healthcare platform that streamlines patient registration.Appointment scheduling, and medical records.Learn to implement complex forms and SMS notifications.User Profiles: Patients can create accounts with personal details, health history, and contact information.Appointment Confirmation: Send automatic SMS and email notifications to confirm appointments.Test Results Notifications: Notify patients when test results are available for viewing.Prescription Reminders: Send medication reminders via SMS for prescription adherence.',
+      'This Hospital Management project is a healthcare platform that simplifies patient registration, appointment scheduling, and medical records. It features user profiles, automatic SMS/email notifications for appointments, test results, and prescription reminders to ensure patient adherence.Languages/technologies used: JavaScript, Node.js, React, and SMS/email integration services.',
     link: 'https://hospital-jade.vercel.app/',
     github: 'https://github.com/Poovendranselvaraj/Hospital',
   },
@@ -42,8 +42,8 @@ const projectData = [
     github: 'https://github.com/Poovendranselvaraj/todo_list',
   },
   {
-    image: '/work/3.png',
-    category: 'fullstack',
+    image: '/work/Fastapi.png',
+    category: 'Backend',
     name: 'FastApi Python',
     description:
       'The Proficient in designing robust backend services,integrating relational databases,and automating testing using Postman. Strong skills in containerizing applications with Docker and managing databases with PgAdmin.Developed APIs using FastAPI, ensuring performance and security.Implemented CRUD operations with PostgreSQL,managed via PgAdmin.Utilized Postman for API testing and validation.Containerized applications with Docker,Integrated data validation and serialization with Pydantic models.',
