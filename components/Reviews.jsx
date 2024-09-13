@@ -34,7 +34,7 @@ const reviewData=[
         job: 'Full stack developer in Magizh Technologies',
 
         review:
-          'Your portfolio is a testament to your skill and dedication. The functionality and aesthetics of your web and app designs are top-notch. Truly impressive!',
+          'Your portfolio is a testament to your skills and dedication. The functionality and aesthetics of your web and app designs are top-notch. Truly impressive!',
     },
     {
         // avatar: '/reviews/avatar-3.png',
