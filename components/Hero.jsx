@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Full Stack Developer</div>
             <h1 className='h1 mb-4'>Hi, I'm Poovendran Selvaraj</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-            I’m a passionate tech professional skilled in web and app development, UX design, and innovative problem-solving, versatile and adaptable.            </p>
+            I am a passionate professional with a strong enthusiasm for technology and design. My journey spans web and app development, front-end and back-end expertise, and user experience design. With a focus on innovative problem-solving, I’ve gained diverse skills, making me a versatile and adaptable developer ready to tackle any challenge.              </p>
             {/*Buttons*/}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Link href="/contact">
