@@ -8,9 +8,8 @@ const nextConfig = {
       },
     ];
   },
-};
-
-module.exports = {
   siteUrl: 'https://poovendran.netlify.app',
   generateRobotsTxt: true,
 };
+
+export default nextConfig;
