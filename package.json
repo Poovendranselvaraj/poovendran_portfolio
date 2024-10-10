@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sitemap": "next-sitemap"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -22,6 +23,7 @@
     "fs": "^0.0.1-security",
     "lucide-react": "^0.408.0",
     "next": "^14.2.5",
+    "next-sitemap": "^4.2.3",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-countup": "^6.5.3",
