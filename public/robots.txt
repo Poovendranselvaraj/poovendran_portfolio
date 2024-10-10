@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://poovendran.netlify.app
+
+# Sitemaps
+Sitemap: https://poovendran.netlify.app/sitemap.xml
