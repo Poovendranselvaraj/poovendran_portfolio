@@ -1,0 +1,1 @@
+robots.txt is used for permission to access or go to another page 
